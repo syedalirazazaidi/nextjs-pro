@@ -1,3 +1,4 @@
+import Navbar from "./shared/navbar"
 
 
 export default function RootLayout({
@@ -13,7 +14,7 @@ export default function RootLayout({
         <link rel="icon" href="/favicon.ico" />
       </head>
       <body>
-       
+       <Navbar/>
         {children}</body>
     </html>
   )
