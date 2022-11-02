@@ -11,7 +11,8 @@ const links: LinkArray = [
     { name: 'Home', path: '/' },
     { name: 'Blogs', path: '/blogs' },
     { name: 'Product', path: '/products' },
-
+    { name: 'Dashboard', path: '/dashboard' },
+    { name: 'Shop', path: '/shop' },
 ]
 
 export default function Navbar() {

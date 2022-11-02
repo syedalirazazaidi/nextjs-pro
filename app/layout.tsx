@@ -1,4 +1,5 @@
 import Navbar from "./shared/navbar"
+import WordGenerator from "./shared/wordgenerator"
 
 
 export default function RootLayout({
@@ -15,7 +16,9 @@ export default function RootLayout({
       </head>
       <body>
        <Navbar/>
-        {children}</body>
+        {children}
+        <WordGenerator/>
+        </body>
     </html>
   )
 }
