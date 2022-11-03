@@ -1,9 +1,11 @@
 
-
 export default function Home() {
   return (
-   <div>
-  hello world
+   <div >
+   <h1>
+      Hello, Next.js!
+    </h1>
+
    </div>
   )
 }

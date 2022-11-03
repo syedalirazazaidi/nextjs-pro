@@ -17,10 +17,10 @@ const links: LinkArray = [
 
 export default function Navbar() {
     return (
-        <div>
+        <div >
             {
                 links.map(link =>
-                    <Link key={link.name} href={link.path}>{link.name} {``}</Link>
+                    <Link key={link.name} href={link.path} >{link.name} {``}</Link>
                 )
             }
         </div>

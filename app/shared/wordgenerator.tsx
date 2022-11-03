@@ -12,7 +12,7 @@ export default function WordGenerator() {
         console.log('client component')
     })
   return (
-    <div><button onClick={generate}>
+    <div ><button onClick={generate}>
         wordgenerator</button>
         <p> {word}</p>
         </div>
